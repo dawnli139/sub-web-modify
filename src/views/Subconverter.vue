@@ -338,10 +338,10 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "Dawn Li Backend": "https://subapi.dawnli.me",
+          "Dawn Li Backend": "https://subapi.dawnli.top",
         },
         backendOptions: [
-          { value: "https://subapi.dawnli.me" },
+          { value: "https://subapi.dawnli.top" },
         ],
         remoteConfig: [
           {
@@ -783,7 +783,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://subapi.dawnli.me" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subapi.dawnli.top" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
